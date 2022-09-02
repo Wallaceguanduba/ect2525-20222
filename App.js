@@ -4,7 +4,11 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <StatusBar style="light" />
+      <Text style={styles.texto}>Hello word</Text>
+      <Text style={styles.texto}> ECT2525</Text>
+      <Image style={styles.imagem}
+      source={require('./assets/imagens/pernalonga.jpg')}></Image>
       <StatusBar style="auto" />
     </View>
   );
@@ -13,8 +17,11 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#f11',
+
     alignItems: 'center',
     justifyContent: 'center',
   },
+  texto: {fontSize: 70
+  }
 });

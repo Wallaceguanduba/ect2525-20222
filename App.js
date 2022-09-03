@@ -8,7 +8,7 @@ export default function App() {
       <Text style={styles.texto}>Hello word</Text>
       <Text style={styles.texto}> ECT2525</Text>
       <Image style={styles.imagem}
-      source={require('./assets/imagens/pernalonga.jpg')}></Image>
+      source={require('./assets/imagens/pernalonga.jpg')}></Image>'
       <StatusBar style="auto" />
     </View>
   );
